@@ -1,0 +1,68 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string name="john";
+		Console.WriteLine(name);
+	}
+}
+
+Output:
+john
+--------------------*****************----------
+
+Create a variable named myNum and assign the value 50 to it.
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int Mynum=50;
+		Console.WriteLine(Mynum);
+	}
+}
+
+Output:
+50
+--------------------**************-------------------------------------
+
+Display the sum of 5 + 10, using two variables: x and y.
+
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int x=5;
+		int y=10;
+		int z=x+y;
+		Console.WriteLine(z);
+	}
+}
+
+Ouput:
+15
+------------------------*************----------------------------------
+
+Fill in the missing parts to create three variables of the same type, using a comma-separated list
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int x=6;int y=5;int z=7;
+		Console.WriteLine(x+y+z);
+		
+	}
+}
+ouput:
+18
+-------------------*************----------------------------

@@ -1,0 +1,78 @@
+
+Print i as long as i is less than 6.
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int i=4;
+		if(i<6)
+		{
+			Console.WriteLine(i);
+		
+		}
+	}
+}
+output:
+4
+-------------------***************---------------------
+Use the do/while loop to print i as long as i is less than 6
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int i=4;
+        do
+		{
+			Console.WriteLine(i);
+			break;
+		}
+		while(i<6);
+		Console.WriteLine(i);
+			
+		
+		}
+	}
+Output:
+4
+4
+
+
+Use a for loop to print "Yes" 5 times:
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		for(int i=0;i<5;i++)
+			Console.WriteLine("YES");
+		
+		
+		}
+	}
+output:
+YES
+YES
+YES
+YES
+YES
+-----------------******** --------------------------
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string[] cars={"volvo","bmw","lamborgini"};
+		Console.WriteLine(cars[0]);
+		}
+	}
+volvo

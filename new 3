@@ -1,0 +1,37 @@
+-------------------------*******************--------------------------
+correct operator to concatenate two strings:
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string firstname="\tprithvi";
+		string lastname="\tshindhe";
+		string name=firstname+lastname;
+		Console.WriteLine(name);
+		
+	}
+}
+ouput:
+prithvi    shindhe
+
+------------------------******************--------------------------
+Use the string interpolation method to concatenate two strings:
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string firstname="\tprithvi";
+		string lastname="\tshindhe";
+		string name="my full name is :{firstname}+{lastname}";
+		Console.WriteLine(name);
+		
+	}
+}
+Output:
+my full name is :{firstname}+{lastname}
+-----------------*************-----------------------

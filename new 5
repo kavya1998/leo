@@ -1,0 +1,134 @@
+methods
+
+using System;
+					
+public class Program
+{
+	static void MyMethod(string fname)
+		{
+			Console.WriteLine(fname+"refsens");
+	}
+	public static void Main()
+	{
+		MyMethod("lias");
+		MyMethod("biju");
+		MyMethod("hero");
+			
+		}
+	}
+output:
+liasrefsens
+bijurefsens
+herorefsens
+------------------************-----------------
+by using a specific keyword inside MyMethod:
+
+using System;
+					
+public class Program
+{
+	static int Mymethod(int x)
+	{
+		return x+5;
+	}
+	
+	public static void Main()
+	{
+		Console.WriteLine("Mymethod3");
+		}
+	}
+Output:
+Mymethod3
+------------------------------***********---------------------
+
+
+using System;
+					
+public class Program
+{
+	static void Fullthruttle()
+	{
+		Console.WriteLine("it is executed easily");
+	}
+	public static void Main()
+	
+	{
+		Program Myobj=new Program();
+		 Myobj.Fullthruttle();
+		}
+	}
+
+*****************************
+
+using System;
+					
+public class Program
+{
+	
+	public static void Main()
+	{
+		int x=78;
+		int y=89;
+		if(x>y)
+		{
+			Console.WriteLine("x is greater");
+		}
+		else
+		{
+			Console.WriteLine("y is greater");
+			
+		
+		
+		
+		}
+		
+
+		}
+	}
+
+y is greater
+-----------************------------------
+using System;
+					
+public class Program
+{
+	
+	public static void Main()
+	{
+		Console.WriteLine("Enter the number");
+		int MyNum=Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Enter the number");
+		int MyNum1=Convert.ToInt32(Console.ReadLine());
+		if(MyNum>MyNum1)
+		{
+			Console.WriteLine("MyNum is greater");
+		}
+		else if(MyNum==MyNum1)
+		{
+			Console.WriteLine("both are equal");
+		}
+		else
+		{
+			Console.WriteLine("MyNum1 is greater");
+		}
+	}
+}
+Output:
+Enter the number
+24
+Enter the number
+9
+MyNum is greater
+**********************
+Enter the number
+22
+Enter the number
+22
+both are equal
+*******************
+Enter the number
+45
+Enter the number
+89
+MyNum1 is greater
+***********************
